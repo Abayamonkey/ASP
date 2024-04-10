@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horse Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Horse Booking</h1>
+  </header>
+  <main>
+    <section id="horses">
+      <h2>Available Horses</h2>
+      <div id="horse-list"></div>
+    </section>
+    <section id="booking">
+      <h2>Book a Horse</h2>
+      <form id="booking-form">
+        <label for="horse-name">Horse Name:</label>
+        <input type="text" id="horse-name" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+        <button type="submit">Book</button>
+      </form>
+      <p id="booking-message"></p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
